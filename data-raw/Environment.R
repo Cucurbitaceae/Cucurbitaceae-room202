@@ -15,7 +15,7 @@ df %<>% dplyr::filter(DateTime %within% interval(ymd("2016-05-06"), today() - 1)
 df %>% write_csv("data-raw/Environment.csv")
 
 # Push to GitHub ----------------------------------------------------------
-r <- repository("/home/hadley/git/room207")
+r <- repository("~/git/room207")
 add(r,
     c("data-raw/Environment.R", "data-raw/Environment.csv"))
 commit(r, "add utility cost data")
