@@ -19,8 +19,6 @@ r <- repository("~/git/room207")
 add(r,
     c("data-raw/Environment.R", "data-raw/Environment.csv"))
 commit(r, "add utility cost data")
-push(r, "room207", 
+push(r, "origin", 
      "refs/heads/master", 
      credentials = cred_user_pass("EMAIL", config$ghpat))
-
-
