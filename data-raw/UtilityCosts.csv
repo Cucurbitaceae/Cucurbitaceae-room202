@@ -2,3 +2,6 @@ date,infrastructure,price,usage,unit
 2016-05-19,light,554,11,kWh
 2016-06-02,gas,2305,0.7,m3
 2016-06-17,light,1751,51,kWh
+2016-06-27,internet,6437,NA,NA
+2016-07-04,water,2975,5,m3
+2016-07-04,gas,2365,0.8,m3
